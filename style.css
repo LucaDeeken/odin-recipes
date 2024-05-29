@@ -1,0 +1,26 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div {
+    text-align: center;
+}
+
+.button {
+    font-size: 30px;
+}
+
+.yellow {
+    background-color: yellow;
+    color: white;
+    font-weight: 700;
+}
+
+#brown {
+    background-color: rgba(165, 42, 42, 0.767);
+
+}
+
+#rosa {
+    background-color: rgb(255, 192, 234);
+}
