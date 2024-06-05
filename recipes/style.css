@@ -17,3 +17,90 @@ div {
 .backgroundchoc {
     background-color: rgba(100, 66, 66, 0.651);
 }
+
+.border {
+    border: 2px solid black;
+}
+
+p {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 25px;
+    text-align: center;
+}
+
+#center {
+    text-align: center;
+}
+
+#left {
+    margin-left: 420px;
+
+}
+
+#right {
+    margin-left: 974px;
+}
+
+.box {
+    width: 490px;
+    height: auto;
+    border: 2px solid black;
+    padding: 4px 25px 25px 25px;
+}
+
+#ingred {
+    margin-left: 420px;
+    width: 490px;
+    height: auto;
+    padding: 0px 25px 0px 25px;
+    text-align: center;
+}
+
+#steps {
+    margin-left: 974px;
+    width: 490px;
+    height: auto;
+    padding: 0px 25px 0px 25px;
+    text-align: center;
+}
+
+.box2 {
+    width: 490px;
+    height: auto;
+    border: 2px solid black;
+    padding: 25px 15px 25px 35px;
+}
+
+.box3 {
+    width: 490px;
+    height: auto;
+    border: 2px solid black;
+    padding: 25px;
+}
+
+.box4 {
+        width: 490px;
+        height: auto;
+        border: 2px solid black;
+        padding: 25px 10px 25px 40px;
+    }
+
+
+.bgboxcheese {
+    background-color:  rgb(252, 250, 234);
+}
+
+.bgboxchocolate {
+    background-color: rgba(180, 143, 143, 0.651);
+}
+
+.bgboxstrawberry {
+    background-color: rgb(250, 236, 244);
+}
+
+.imgmargin {
+    margin-top: 30px;
+}
