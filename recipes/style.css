@@ -35,57 +35,58 @@ p {
     text-align: center;
 }
 
-#left {
-    margin-left: 420px;
-
-}
-
-#right {
-    margin-left: 974px;
-}
 
 .box {
-    width: 490px;
-    height: auto;
+    display: flex;
     border: 2px solid black;
     padding: 4px 25px 25px 25px;
+    flex-direction: column;
+    min-height: 500px;
+    flex: 10%;
+    list-style-type: none;
+    justify-content: center;
+    gap: 8px;
 }
 
 #ingred {
-    margin-left: 420px;
-    width: 490px;
-    height: auto;
     padding: 0px 25px 0px 25px;
     text-align: center;
 }
 
 #steps {
-    margin-left: 974px;
-    width: 490px;
-    height: auto;
     padding: 0px 25px 0px 25px;
     text-align: center;
 }
 
 .box2 {
-    width: 490px;
-    height: auto;
+    display: flex;
     border: 2px solid black;
     padding: 25px 15px 25px 35px;
+    flex-direction: column;
+    flex: 10%;
+    gap: 20px;
+    justify-content: center;
 }
 
 .box3 {
-    width: 490px;
-    height: auto;
+    display: flex;
     border: 2px solid black;
-    padding: 25px;
+    padding: 4px 25px 25px 25px;
+    flex-direction: column;
+    flex: 10%;
+    list-style-type: none;
+    justify-content: center;
+    gap: 20px;
+    
 }
 
 .box4 {
-        width: 490px;
-        height: auto;
-        border: 2px solid black;
-        padding: 25px 10px 25px 40px;
+    display: flex;
+    border: 2px solid black;
+    padding: 25px 25px 25px 45px;
+    flex-direction: column;
+    flex: 10%;
+    gap: 20px;
     }
 
 
@@ -104,3 +105,15 @@ p {
 .imgmargin {
     margin-top: 30px;
 }
+
+#flex1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: space-around;
+}
+
